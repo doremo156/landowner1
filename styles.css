@@ -1,0 +1,114 @@
+/*nav part */
+#Heading{
+    padding: 2% 15% 0;
+    font-size: larger;
+    margin-bottom: 10%;
+}
+.nav-head{
+    font-size: x-large;
+}
+
+/* .head-part{
+    position: relative;
+    border: 0 0 20% 0;
+    /* width: 100%; 
+    display: flex;
+    
+} */
+.video-back{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* width: 100%;
+    height: 100vh; */
+}
+.headline{
+    font-family: montserrat;
+    color: white;
+    font-size: 300%;
+    line-height: 1.5;
+}
+.head-part{
+    text-align: center;
+    padding-top: 18%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: montserrat;
+    font-weight: 150;
+}
+/* FEATURES */
+#features{
+    margin: 10% 0 0;
+    text-align:center ;
+    padding:  8%;
+}
+@media (max-width:1000px) {
+    #features{
+        margin-top: 40%;
+    }
+}
+#features h2{
+    font-weight: 900;
+}
+.fa-icon{
+    margin: 5%;
+}
+.fa-icon.n1{
+    color: rgb(5, 138, 34);
+}
+.fa-icon.n2{
+    color: rgb(4, 82, 250);
+}
+
+/* ITEM */
+#land-sample{
+    text-align: center;
+}
+.land-img{
+    height: 80vh;
+    z-index: -1;
+}
+.land-img-carousel h1{
+    color: white;
+    text-align: right;
+    display: inline;
+    font-weight: 800;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+.in-carousel-add{
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    left: 40%;
+    top: 70%;
+}
+/* INTRO */
+#intro{
+    text-align: center;
+    padding: 8% 8%;
+    margin-bottom: 3%;
+}
+#intro img{
+    width: 15%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 5%;
+}
+/* Contact */
+#contact{
+    text-align: center;
+    padding: 5% 5%;
+    color: #fcfbfb;
+    background-color: rgb(135, 136, 136);
+}
+.contact-info p{
+    color: aliceblue;
+}
+.contact-info i{
+    margin-bottom: 3%;
+}
